@@ -4,10 +4,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Log log = Log.GetInstance();
-        log.PropriedadeLog = "Teste instância";
-        Log log2 = Log.GetInstance();
-        System.Console.WriteLine(log2.PropriedadeLog);
+        Aluno aluno = new Aluno ("Jhonni", "Lima", "Matemática");
+        aluno.Apresentar();
+        // Log log = Log.GetInstance();
+        // log.PropriedadeLog = "Teste instância";
+        // Log log2 = Log.GetInstance();
+        // System.Console.WriteLine(log2.PropriedadeLog);
+
         // Pessoa p1 = new Pessoa();
         // p1.Apresentar();
     }
