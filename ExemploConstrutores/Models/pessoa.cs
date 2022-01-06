@@ -2,9 +2,9 @@ namespace ExemploConstrutores.Models
 {
     public class Pessoa
     {
-        private string nome;
-        private string sobrenome;
-        public Pessoa() // construtor vazio
+        private string? nome;
+        private string? sobrenome;
+        /*public Pessoa() // construtor vazio (padrão)
         {
             nome = string.Empty;
             sobrenome = string.Empty;
@@ -13,7 +13,7 @@ namespace ExemploConstrutores.Models
         {
             this.nome = nome;
             this.sobrenome = sobrenome;
-        }
+        }*/
 
         public void Apresentar()
         {
